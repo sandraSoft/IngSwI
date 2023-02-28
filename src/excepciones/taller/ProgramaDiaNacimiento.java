@@ -4,6 +4,11 @@ import java.time.DateTimeException;
 import java.time.DayOfWeek;
 import java.util.Scanner;
 
+/**
+ * Programa que usa funciones del API de Java con excepciones no comprobadas.
+ *
+ * @version 1.0
+ */
 public class ProgramaDiaNacimiento {
 
     public static void main(String[] args) {
@@ -11,6 +16,13 @@ public class ProgramaDiaNacimiento {
                 new ProgramaDiaNacimiento();
         programa.leerFechaMostrarDia();
     }
+
+    /**
+     * Pide al usuario el año, mes y día de su nacimiento (como enteros),
+     * obtiene el día de la semana de esa fecha y lo muestra.
+     *
+     * Permite tener un ejemplo de manejo de excepciones NO COMPROBADAS (UNCHECKED)
+     */
 
     public void leerFechaMostrarDia(){
         Scanner consola = new Scanner(System.in);

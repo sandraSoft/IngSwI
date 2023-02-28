@@ -3,6 +3,11 @@ package excepciones.taller;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ * Programa que usa funciones del API de Java con excepciones comprobadas.
+ *
+ * @version 1.0
+ */
 public class ProgramaZip {
     public static void main(String[] args) {
         ProgramaZip programa = new ProgramaZip();
@@ -10,8 +15,10 @@ public class ProgramaZip {
     }
 
     /**
-     * Pide el nombre de un archivo zip y muestra la cantidd
-     *  de archivos que tiene internamente
+     * Pide el nombre de un archivo zip y muestra la cantidad
+     *  de archivos que tiene internamente.
+     *
+     * Permite tener un ejemplo de manejo de excepciones COMPROBADAS (CHECKED)
      */
     public void mostrarCantidadArchivos() {
         Scanner consola = new Scanner(System.in);
