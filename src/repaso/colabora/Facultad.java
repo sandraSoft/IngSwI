@@ -18,6 +18,6 @@ public class Facultad implements Organizable {
 
     @Override
     public double calcularCantidadOficinas() {
-        return this.cantidadDepartamentos * 10;
+        return (double) this.cantidadDepartamentos * 10;
     }
 }
