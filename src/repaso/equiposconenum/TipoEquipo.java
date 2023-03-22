@@ -12,19 +12,19 @@ public enum TipoEquipo {
     TABLETA(5000,1.05),
     PORTATIL(10000,1.1);
 
-    private final int RECARGO;
-    private final double INCREMENTO;
+    private final int recargo;
+    private final double incremento;
 
     TipoEquipo(int recargo, double incremento){
-        this.RECARGO = recargo;
-        this.INCREMENTO = incremento;
+        this.recargo = recargo;
+        this.incremento = incremento;
     }
 
     double getRecargo() {
-        return RECARGO;
+        return recargo;
     }
 
     double getIncremento() {
-        return INCREMENTO;
+        return incremento;
     }
 }
