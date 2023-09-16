@@ -1,4 +1,4 @@
-package enums.taller.solucionuno;
+package enums.camisetasuno;
 
 public enum Talla {
     SMALL,

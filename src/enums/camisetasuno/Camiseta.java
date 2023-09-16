@@ -1,4 +1,4 @@
-package enums.taller.solucionuno;
+package enums.camisetasuno;
 
 /**
  * Prenda de vestir para el torso, de algún estilo y talla.

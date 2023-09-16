@@ -1,4 +1,4 @@
-package enums.taller.inicial;
+package enums.notaria;
 
 /**
  * Notaría que ofrece servicios a las personas.

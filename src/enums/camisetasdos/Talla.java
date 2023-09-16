@@ -1,4 +1,4 @@
-package enums.taller.soluciondos;
+package enums.camisetasdos;
 
 public enum Talla {
     SMALL("pequeña"),

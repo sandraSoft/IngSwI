@@ -1,4 +1,4 @@
-package enums.taller.inicial;
+package enums.notaria;
 
 import java.time.LocalDate;
 import java.time.Period;
