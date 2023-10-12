@@ -10,11 +10,11 @@ public class CarrosMain {
 
         System.out.println(" PRUEBA 1 - archivo inexistente: ");
         System.out.println("Debe salir: \"No se pudo leer el archivo\"");
-        control.obtenerDatosCarros("INEXISTENTE");
+        control.obtenerDatosCarros(carpeta+"INEXISTENTE");
 
         System.out.println(" PRUEBA 2 - datos correctos: ");
         System.out.println("Debe salir: 2 carros leídos, 0 datos incorrectos");
-        control.obtenerDatosCarros("Carros.csv");
+        control.obtenerDatosCarros(carpeta+"Carros.csv");
         System.out.println(control.getCantidadCarrosCreados() +
                 " carros leídos, " + control.getCantidadDatosIncorrectos() +
                 " datos incorrectos");
@@ -24,7 +24,7 @@ public class CarrosMain {
 
         System.out.println(" PRUEBA 3 - datos incorrectos: ");
         System.out.println("Debe salir: 2 carros leídos, 2 datos incorrectos");
-        control.obtenerDatosCarros("CarrosIncorrectos.csv");
+        control.obtenerDatosCarros(carpeta+"CarrosIncorrectos.csv");
         System.out.println(control.getCantidadCarrosCreados() +
                 " carros leídos, " + control.getCantidadDatosIncorrectos() +
                 " datos incorrectos");
