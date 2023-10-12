@@ -10,12 +10,10 @@ import java.util.List;
 public class ControlCarros {
     private List<Carro> carros;
     private ConversorCsv convertidor;
-    private int cantidadDatosIncorrectos;
 
     public ControlCarros() {
         this.carros = new ArrayList<>();
         this.convertidor = new ConversorCsv();
-        this.cantidadDatosIncorrectos = 0;
     }
 
     public int getCantidadCarrosCreados() {
@@ -23,7 +21,7 @@ public class ControlCarros {
     }
 
     public int getCantidadDatosIncorrectos() {
-        return cantidadDatosIncorrectos;
+        return convertidor.getDatosIncorrectos();
     }
 
     /**

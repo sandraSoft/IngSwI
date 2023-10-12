@@ -8,6 +8,15 @@ import java.util.List;
  * a sus correspondientes objetos "Carro" en Java.
  */
 public class ConversorCsv {
+    private int datosIncorrectos;
+
+    public ConversorCsv() {
+        this.datosIncorrectos = 0;
+    }
+
+    public int getDatosIncorrectos() {
+        return datosIncorrectos;
+    }
 
     /**
      * Se deben tener varias líneas de texto, cada una con los datos de un carro.
