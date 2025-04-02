@@ -6,8 +6,6 @@ import java.util.List;
 /**
  * Datos de las ventas de la tienda de electrónicos,
  * para poder obtener totales al final del día.
- *
- * @version 1.0
  */
 public class ControlVentas {
     private List<Venta> ventas;
@@ -24,7 +22,7 @@ public class ControlVentas {
     /**
      * Calcula (suma) total de las ventas registradas.
      *
-     * @return el valor de todas las ventas, en pesos.
+     * @return el valor de todas las ventas (el día), en pesos.
      */
     public double calcularValor() {
         double valorTotal = 0;

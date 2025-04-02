@@ -2,8 +2,6 @@ package repaso.equiposconenum;
 
 /**
  * Información de la venta de un equipo electrónico.
- *
- * @version 1.0
  */
 public class Venta {
     private Equipo producto;

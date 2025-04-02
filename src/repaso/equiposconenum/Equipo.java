@@ -2,8 +2,6 @@ package repaso.equiposconenum;
 
 /**
  * Equipo electrónico que se vende en una tienda.
- *
- * @version 2.0
  */
 public class Equipo {
     private double valorBase;
@@ -20,7 +18,8 @@ public class Equipo {
 
     /**
      * Calcula el precio del equipo a partir de una base
-     * e incrementos por el tipo de equipo
+     * e incrementos por el tipo de equipo.
+     *
      * @return el precio del equipo, en pesos
      */
     public double calcularPrecio() {
